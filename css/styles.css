@@ -61,7 +61,7 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid tomato;
+  outline: 2px solid aqua;
 }
 .visually-hidden {
   position: absolute;
@@ -106,6 +106,12 @@ ul {
 /* Page header */
 .header {
   border: 1px solid #ececec;
+}
+.header.container {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
 }
 /* display: flex;  height: 80px;
   align-items: center;
@@ -211,6 +217,7 @@ ul {
   padding: 94px 0px;
   /* border-bottom: 1px solid tomato; */
   /* background-color: yellow; */
+  background-color: yellow;
 }
 
 .feature-list.item:nth-child(4) {
@@ -234,7 +241,10 @@ ul {
 
 /* Section */
 .section {
-  background: #f5f4fa;
+  /* background: #f5f4fa; */
+  background-color: pink;
+  padding-bottom: 94px;
+  padding-top: 92px;
 }
 .section-text {
   display: block;
@@ -257,7 +267,7 @@ ul {
   font-size: 36px;
   font-weight: 700;
   line-height: 1, 2;
-  background-color: tomato;
+  background-color: green;
 }
 .section-title.centered {
   display: flex;
@@ -266,8 +276,9 @@ ul {
 }
 
 .section.no-padding {
-  padding-bottom: 0px;
-  padding-top: 0px;
+  padding-bottom: 94px;
+  padding-top: 92;
+  background-color: tomato;
 }
 /* features */
 .title {
@@ -327,7 +338,7 @@ ul {
 
 .team-flex {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
   list-style: none;
 }
@@ -340,8 +351,9 @@ ul {
   width: 270;
   text-align: center;
   margin-right: 50px;
-  padding: 0px;
+  /* padding: 0px; */
   margin-bottom: 94px;
+  padding-bottom: 30px;
 }
 .team-text {
   color: #757575;
