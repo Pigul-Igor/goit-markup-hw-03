@@ -229,9 +229,9 @@ ul {
   justify-content: space-between;
 }
 
-.feature-list li + li {
+/* .feature-list li + li {
   margin-left: 30px;
-}
+} */
 .item {
   width: calc((100%-90px) / 4);
   margin-right: 30px;
@@ -338,6 +338,7 @@ ul {
 
 .team-flex {
   display: flex;
+  /* justify-content: space-between; */
   /* flex-wrap: wrap; */
 
   list-style: none;
@@ -350,7 +351,7 @@ ul {
   list-style: none;
   width: 270;
   text-align: center;
-  margin-right: 50px;
+  margin-right: 30px;
   /* padding: 0px; */
   margin-bottom: 94px;
   padding-bottom: 30px;
