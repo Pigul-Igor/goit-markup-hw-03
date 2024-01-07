@@ -464,8 +464,6 @@ ul {
   margin-left: auto;
   font-family: Roboto;
   color: #757575;
-
-  font-family: Roboto;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -499,6 +497,10 @@ header .link:focus {
 .pf-body {
   padding-top: 93px;
   padding-bottom: 94px;
+  background-color: teal;
+}
+.color {
+  background-color: yellow;
 }
 
 /* .section-portfolio {   padding-top: 100px;
@@ -534,7 +536,8 @@ header .link:focus {
   margin-right: 30;
 } */
 .work-list {
-  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-wrap: wrap;
   align-items: center;
   margin-top: 0px;
@@ -542,12 +545,41 @@ header .link:focus {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.48px;
+  background-color: tomato;
+  /* width: calc((100%-60px) / 3); */
+  /* margin-right: 30px; */
 }
 
 .example-item {
-  width: calc((100%-60px) / 3);
+  width: calc((100% - 30px * 2) / 3);
+}
+
+.example-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* .example-item { 
+  width: calc((100% - 30px * 2) / 3);
   margin-right: 30px;
+}
+
+.example-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.example-item:nth-child(n + 4) {
+  margin-top: 30px;
+}
+*/
+.example-item {
+  width: 370px;
+  /* width: calc((100%-60px) / 3); */
+  /* margin-right: 30px; */
   margin-bottom: 30px;
+  border: 1px solid #eee;
+  /* width: calc(100%-60px) / 3) */
+  background: #fff;
+  overflow: hidden;
 }
 .text {
   color: var(--primary-text-color);
@@ -570,15 +602,17 @@ header .link:focus {
   display: block;
 }
 .card {
+  width: 370px;
   border: 1px solid #eee;
   background: #fff;
   overflow: hidden;
+  background: pink;
 }
 
 .card-content {
+  box-sizing: border-box;
   border: 1px solid #eee;
   background: #fff;
-  box-sizing: border-box;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
@@ -607,6 +641,7 @@ header .link:focus {
   display: flex;
   justify-content: center;
   margin-bottom: 34px;
+  background-color: tomato;
 }
 
 .filters li:not(:first-child) {
